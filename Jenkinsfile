@@ -8,7 +8,7 @@ pipeline {
         }
         stage ('Build') {
             steps {
-		    sh '${m2_home}/bin/mvn -f java-sample-app/pom.xml clean install' 
+		    sh '${m2_home}/usr/local/src/apache-maven/bin/mvn -f java-sample-app/pom.xml clean install' 
             }
         }
     }
