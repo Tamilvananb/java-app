@@ -13,7 +13,7 @@ pipeline {
         }
     	stage ('Deploy to tomcat'){
 		steps {
-            	      sh 'scp -o /var/lib/jenkins/workspace/testpipe/java-sample-app/target/java-sample-app-1.0.0.war root@192.168.1.127:/home/'
+            	      sh 'scp /var/lib/jenkins/workspace/testpipe/java-sample-app/target/java-sample-app-1.0.0.war root@192.168.1.127:/home/'
 			}
 		
 	}
