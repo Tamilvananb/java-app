@@ -8,6 +8,6 @@
 		It is now
 		<%= new java.util.Date() %></p>
 	<p>
-		You are coming from zippy-job
+		You are coming from tamizh-job
 		<%= request.getRemoteAddr()  %></p>
 </body>
